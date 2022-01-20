@@ -1,5 +1,6 @@
 package com.xiaodi.qa.jmeter;
 
+import com.alibaba.fastjson.JSONObject;
 import org.apache.jmeter.JMeter;
 import org.apache.jmeter.control.LoopController;
 import org.apache.jmeter.engine.StandardJMeterEngine;
@@ -93,5 +94,11 @@ public class JmeterTest {
         loopController.setProperty(TestElement.TEST_CLASS, LoopController.class.getName());
         loopController.initialize();
         return loopController;
+    }
+
+    public void gouxiaodi(){
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.toJSONString();
+
     }
 }

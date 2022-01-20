@@ -32,13 +32,13 @@ public class OneWebSocket {
     }
 
     @OnMessage
-    public void onMessage(String message, Session session) {
+    public void onMessage(Session session, String message) {
         log.info("收到客户端sessionId是{},的消息是{}", session.getId(), message);
-        this.sendMessage("Hello" + message,session);
+        this.sendMessage("Hello" + message, session);
     }
 
     @OnError
-    public void error(Session session,Throwable e){
+    public void error(Session session, Throwable e) {
         log.error("发生错误");
         e.printStackTrace();
     }
