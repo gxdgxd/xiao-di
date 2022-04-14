@@ -3,7 +3,6 @@ package com.xiaodi.qa.jmeter;
 import com.alibaba.fastjson.JSONArray;
 import com.alibaba.fastjson.JSONObject;
 import com.jayway.jsonpath.JsonPath;
-import com.wpt.qa.WptJsonPath;
 import lombok.extern.slf4j.Slf4j;
 import org.json.JSONString;
 
