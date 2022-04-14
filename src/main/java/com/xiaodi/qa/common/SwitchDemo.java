@@ -1,11 +1,5 @@
 package com.xiaodi.qa.common;
 
-import com.alibaba.fastjson.JSONObject;
-import org.apache.commons.io.FilenameUtils;
-import org.omg.PortableInterceptor.INACTIVE;
-
-import java.util.ArrayList;
-import java.util.List;
 import java.util.Scanner;
 
 /**
