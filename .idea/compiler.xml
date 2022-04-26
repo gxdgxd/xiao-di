@@ -7,15 +7,20 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="xiao-di" />
+        <module name="mytest" />
+        <module name="practice" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="mytest" target="1.8" />
+      <module name="practice" target="1.8" />
       <module name="xiao-di" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="mytest" options="-parameters" />
+      <module name="practice" options="-parameters" />
       <module name="xiao-di" options="-parameters" />
     </option>
   </component>
