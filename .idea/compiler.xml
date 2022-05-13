@@ -14,8 +14,8 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="mymock" target="1.8" />
-      <module name="mytest" target="8" />
-      <module name="practice" target="8" />
+      <module name="mytest" target="1.8" />
+      <module name="practice" target="1.8" />
       <module name="xiao-di" target="1.8" />
     </bytecodeTargetLevel>
   </component>
