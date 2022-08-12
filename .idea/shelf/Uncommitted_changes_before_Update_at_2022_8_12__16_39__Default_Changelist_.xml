@@ -1,0 +1,24 @@
+<changelist name="Uncommitted_changes_before_Update_at_2022_8_12,_16_39_[Default_Changelist]" date="1660293642012" recycled="true" deleted="true">
+  <option name="PATH" value="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_2022_8_12,_16_39_[Default_Changelist]/shelved.patch" />
+  <option name="DESCRIPTION" value="Uncommitted changes before Update at 2022/8/12, 16:39 [Default Changelist]" />
+  <binary>
+    <option name="BEFORE_PATH" value="mymock/mvnw" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="mymock/mvnw.cmd" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="practice/src/main/resources/config" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+  <binary>
+    <option name="BEFORE_PATH" value="mymock/.mvn/wrapper/maven-wrapper.jar" />
+    <option name="AFTER_PATH" />
+    <option name="SHELVED_PATH" />
+  </binary>
+</changelist>
