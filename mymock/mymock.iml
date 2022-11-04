@@ -27,15 +27,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" scope="TEST" name="Maven: com.alibaba.testable:testable-all:0.7.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.alibaba.testable:testable-processor:0.7.5" level="project" />
-    <orderEntry type="module-library">
-      <library name="Maven: sun.jdk:tools:1.6">
-        <CLASSES>
-          <root url="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_231.jdk/Contents/Home/jre/../lib/tools.jar!/" />
-        </CLASSES>
-        <JAVADOC />
-        <SOURCES />
-      </library>
-    </orderEntry>
     <orderEntry type="library" scope="TEST" name="Maven: com.alibaba.testable:testable-core:0.7.5" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.alibaba:transmittable-thread-local:2.12.4" level="project" />
     <orderEntry type="library" scope="TEST" name="Maven: com.alibaba.testable:testable-agent:0.7.5" level="project" />
@@ -45,6 +36,7 @@
     <orderEntry type="library" name="Maven: org.apiguardian:apiguardian-api:1.1.0" level="project" />
     <orderEntry type="library" name="Maven: org.opentest4j:opentest4j:1.2.0" level="project" />
     <orderEntry type="library" name="Maven: org.junit.platform:junit-platform-commons:1.6.2" level="project" />
+    <orderEntry type="library" name="Maven: org.freemarker:freemarker:2.3.31" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter-web:2.3.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot-starter:2.3.1.RELEASE" level="project" />
     <orderEntry type="library" name="Maven: org.springframework.boot:spring-boot:2.3.1.RELEASE" level="project" />

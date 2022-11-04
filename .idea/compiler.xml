@@ -10,17 +10,20 @@
         <module name="mytest" />
         <module name="practice" />
         <module name="mymock" />
+        <module name="MyBatisPlusGenerator" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="MyBatisPlusGenerator" target="11" />
       <module name="mymock" target="1.8" />
-      <module name="mytest" target="1.8" />
-      <module name="practice" target="1.8" />
+      <module name="mytest" target="8" />
+      <module name="practice" target="8" />
       <module name="xiao-di" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="MyBatisPlusGenerator" options="-parameters" />
       <module name="mymock" options="-parameters" />
       <module name="mytest" options="-parameters" />
       <module name="practice" options="-parameters" />
