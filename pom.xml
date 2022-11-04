@@ -19,6 +19,7 @@
         <module>practice</module>
         <module>mytest</module>
         <module>mymock</module>
+        <module>MyBatisPlusGenerator</module>
     </modules>
 
     <dependencies>
