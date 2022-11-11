@@ -40,6 +40,15 @@
     </properties>
 
     <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <skip>true</skip>
+                </configuration>
+            </plugin>
+        </plugins>
         <!--在build中配置resource，防止资源导出失败的问题,手动配置资源过滤      -->
         <resources>
             <resource>

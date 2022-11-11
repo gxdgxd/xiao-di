@@ -34,17 +34,21 @@
     </dependencies>
 
     <properties>
-        <java.version>1.8</java.version>
+        <java.version>11</java.version>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <maven.compiler.encoding>UTF-8</maven.compiler.encoding>
-        <maven.compiler.source>1.8</maven.compiler.source>
-        <maven.compiler.target>1.8</maven.compiler.target>
+        <maven.compiler.source>${java.version}</maven.compiler.source>
+        <maven.compiler.target>${java.version}</maven.compiler.target>
         <maven.test.skip>true</maven.test.skip>
     </properties>
 
     <build>
         <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
         </plugins>
         <!--在build中配置resource，防止资源导出失败的问题,手动配置资源过滤      -->
         <resources>

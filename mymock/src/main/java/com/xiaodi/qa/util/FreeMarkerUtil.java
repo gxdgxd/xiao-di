@@ -1,6 +1,13 @@
 package com.xiaodi.qa.util;
 
+import freemarker.template.*;
+
+import java.io.FileOutputStream;
 import java.io.IOException;
+import java.io.OutputStreamWriter;
+import java.io.Writer;
+import java.util.Locale;
+import java.util.Map;
 
 /**
  * @Author xiaodi.gou

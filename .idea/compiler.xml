@@ -15,10 +15,10 @@
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="MyBatisPlusGenerator" target="11" />
-      <module name="mymock" target="1.8" />
+      <module name="mymock" target="11" />
       <module name="mytest" target="8" />
       <module name="practice" target="8" />
-      <module name="xiao-di" target="1.8" />
+      <module name="xiao-di" target="11" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
