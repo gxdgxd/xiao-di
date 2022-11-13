@@ -25,8 +25,8 @@ public class MyBatisPlusGenerator2 {
                             .pathInfo(Collections.singletonMap(OutputFile.mapperXml, "/Users/xiaodi/gkcs/autotest/testreport-be/src/main/java/com/kernelsoft/qa/mapper")); // 设置mapperXml生成路径
                 })
                 .strategyConfig(builder -> {
-                    builder.addInclude("t_report_copy") // 设置需要生成的表名
-                            .addTablePrefix("", ""); // 设置过滤表前缀
+                    builder.addInclude("t_report_copy","t_testcase","t_caseresult") // 设置需要生成的表名
+                            .addTablePrefix("t_", ""); // 设置过滤表前缀
                 })
                 .templateEngine(new FreemarkerTemplateEngine()) // 使用Freemarker引擎模板，默认的是Velocity引擎模板
                 .execute();
